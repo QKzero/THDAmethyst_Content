@@ -1,0 +1,75 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf45:version{73c3d623-a141-4df2-b548-41dd786e6300} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_ConstantColor = [ 255, 144, 254, 50 ]
+	m_flConstantRadius = 300.0
+	m_flConstantLifespan = 0.2
+	m_nMaxParticles = 8
+	m_nBehaviorVersion = 4
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_entityName = "self"
+				},
+			]
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_ContinuousEmitter"
+		},
+	]
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_BasicMovement"
+		},
+		{
+			_class = "C_OP_SpinUpdate"
+		},
+		{
+			_class = "C_OP_PositionLock"
+		},
+		{
+			_class = "C_OP_InterpolateRadius"
+			m_flStartScale = 0.5
+			m_flEndScale = 2.5
+			m_flBias = 0.0
+			m_flEndTime = 8.0
+		},
+		{
+			_class = "C_OP_RampScalarLinearSimple"
+			m_Rate = 15.0
+			m_flEndTime = 10000.0
+			m_nField = 4
+		},
+		{
+			_class = "C_OP_SetToCP"
+		},
+	]
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderSprites"
+			m_nOrientationType = "PARTICLE_ORIENTATION_WORLD_Z_ALIGNED"
+			m_flSelfIllumAmount = 1.0
+			m_vecTexturesInput = 
+			[
+				{
+					m_hTexture = resource:"materials/particle/water_whirl_01.vtex"
+				},
+			]
+		},
+		{
+			_class = "C_OP_RenderDeferredLight"
+			m_hTexture = resource:"materials/particle/thd2/nuclear.vtex"
+			m_bDisableOperator = true
+		},
+	]
+}

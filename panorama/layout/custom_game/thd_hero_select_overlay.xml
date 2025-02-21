@@ -1,0 +1,23 @@
+<root>
+	<styles>
+		<include src="s2r://panorama/styles/dotastyles.vcss_c" />
+		<include src="s2r://panorama/styles/hud/dota_hud_pregame.vcss_c" />
+	</styles>
+	<scripts>
+		<include src="file://{resources}/scripts/custom_game/thd_hero_select_overlay.js" />
+	</scripts>
+	<Panel hittest="false" class="Root" >
+	<!--
+		<Panel id="HeroSelectButtonOverlayRoot" hittest="false">
+			<Button id="RandomButtonOverlay" class="PickButton" onactivate="OnClickRandomButton()">
+				<Panel class="RandomIcon" />
+				<Label text="随机" />
+			</Button>
+			<Button id="RepickButtonOverlay" class="PickButton" onactivate="OnClickRepickButton()">
+				<Panel class="RepickIcon" />
+				<Label text="重选" />
+			</Button>
+		</Panel>
+	-->
+	</Panel>
+</root>

@@ -1,0 +1,50 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "spring_meteor.vfx"
+
+	//---- Reflection cube map ----
+	F_REFLECT_CUBE_MAP 1
+
+	//---- Color ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	TextureColor "models/kokoro/kokoro.fbm/bluebow.tga"
+
+	//---- MeteorFX ----
+	g_flCubeMapPowerReflect "1.000"
+	g_flCubeMapScalarReflect "1.000"
+	g_flMeteorBloom "1.000"
+	g_flMeteorBloomSaturation "1.000"
+	g_flMeteorBloomThreshold "0.250"
+	g_flReflectRimPower "8.000"
+	g_flReflectRimStrength "1.000"
+	TextureCubeMapReflect ""
+
+	//---- Self Illum ----
+	TextureSelfIllumMask ""
+
+	//---- Specular ----
+	g_flSpecularIntensity "1.000"
+	TextureBloom ""
+	TextureReflectance ""
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"MeteorFX"
+		{
+		}
+		"Self Illum"
+		{
+		}
+		"Specular"
+		{
+		}
+	}
+}

@@ -1,0 +1,95 @@
+.thd_urd_root {
+	width: 100%;
+	height: 100%;
+}
+
+#UrdContainer {
+	visibility: visible;
+	opacity: 0;
+	transform: translateY( -20px );
+	width: 500px;
+	height: 300px;
+	
+	margin-top: 64px;
+	margin-right: 44px;
+    horizontal-align: right;
+	vertical-align: top;
+
+	background-color: gradient( linear, 0% 0%, 0% 100%, from ( #373737 ), to ( #171717 ) );
+
+	border-radius: 8px;
+	border: 2px solid #000000;
+	transition-property: opacity, transform;
+	transition-duration: 0.2s;
+}
+
+#UrdHeader {
+	width: 100%;
+	vertical-align: top;
+}
+
+#UrdCloseButtom {
+	horizontal-align: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+#Vote {
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+}
+
+#VoteNum {
+	width: 100%;
+	margin-top: 135px;
+	font-size: 80px;
+	color: #DDDDDD;
+	text-align: center;
+	visibility: visible;
+}
+
+#VoteTip {
+	horizontal-align: center;
+	vertical-align: bottom;
+	margin-bottom: 10px;
+}
+
+#GGContainer {
+	visibility: visible;
+	opacity: 0;
+	transform: translateY( -20px );
+	width: 500px;
+	height: 300px;
+	
+	margin-top: 64px;
+	margin-right: 44px;
+    horizontal-align: right;
+	vertical-align: top;
+
+	background-color: gradient( linear, 0% 0%, 0% 100%, from ( #373737 ), to ( #171717 ) );
+
+	border-radius: 8px;
+	border: 2px solid #000000;
+	transition-property: opacity, transform;
+	transition-duration: 0.2s;
+}
+
+#GGMessage {
+	margin-top: 100px;
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+}
+
+#GGTimer {
+	width: 100%;
+	horizontal-align: center;
+	vertical-align: bottom;
+	margin-bottom: 20px;
+	font-size: 124px;
+	color: #DDDDDD;
+	text-align: center;
+	visibility: visible;
+}

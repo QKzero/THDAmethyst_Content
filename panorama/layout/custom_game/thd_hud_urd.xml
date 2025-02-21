@@ -1,0 +1,26 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/dotastyles.vcss_c" />
+        <include src="s2r://panorama/styles/hud/dota_hud_gg.vcss_c" />
+        <include src="file://{resources}/styles/custom_game/thd_hud_urd.css" />
+    </styles>
+    <scripts>
+        <include src="file://{resources}/scripts/custom_game/thd_hud_urd.js" />
+    </scripts>
+    <Panel hittest="false" class="thd_urd_root">
+        <Panel id="UrdContainer">
+            <Panel id="UrdHeader">
+                <Label id="Header" text="#THDOTS_HUD_URD_Title" />
+                <Button id="UrdCloseButtom" class="CloseButton" onactivate="OnCloseButtonPressed()" />
+            </Panel>
+            <Label id="Vote" text="#THDOTS_HUD_URD_Vote" />
+            <Label id="VoteNum" text="{d:vote_num}/{d:vote_need}" />
+            <Label id="VoteTip" text="#THDOTS_HUD_URD_Message" />
+        </Panel>
+        <Panel id="GGContainer">
+            <Label id="Header" text="#DOTA_HUD_GG_GameWillEnd" />
+            <Label id="GGMessage" text="#THDOTS_HUD_URD_Endin" />
+            <Label id="GGTimer" text="{d:time}" />
+        </Panel>
+    </Panel>
+</root>

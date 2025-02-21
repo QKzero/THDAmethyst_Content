@@ -1,0 +1,116 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:vpcf35:version{ec5bfcca-b89d-4591-9ef4-c8679487d623} -->
+{
+	_class = "CParticleSystemDefinition"
+	m_bShouldHitboxesFallbackToRenderBounds = false
+	m_nMaxParticles = 100
+	m_flConstantRadius = 2.0
+	m_ConstantColor = [ 237, 107, 28, 255 ]
+	m_flMaxDrawDistance = 1500.0
+	m_bShouldSort = false
+	m_nBehaviorVersion = 5
+	m_nFirstMultipleOverride_BackwardCompat = 3
+	m_controlPointConfigurations = 
+	[
+		{
+			m_name = "preview"
+			m_drivers = 
+			[
+				{
+					m_iAttachType = "PATTACH_WORLDORIGIN"
+					m_vecOffset = [ 0.0, 0.0, 0.0 ]
+					m_angOffset = [ 0.0, 0.0, 0.0 ]
+					m_entityName = "self"
+				},
+			]
+		},
+	]
+	m_Emitters = 
+	[
+		{
+			_class = "C_OP_InstantaneousEmitter"
+		},
+	]
+	m_Initializers = 
+	[
+		{
+			_class = "C_INIT_RandomLifeTime"
+			m_fLifetimeMin = 1.9
+			m_fLifetimeMax = 1.9
+		},
+		{
+			_class = "C_INIT_RandomRadius"
+			m_flRadiusMax = 54.0
+			m_flRadiusMin = 36.0
+		},
+		{
+			_class = "C_INIT_CreateOnModel"
+			m_vecHitBoxScale = 
+			{
+				m_nType = "PVEC_TYPE_LITERAL"
+				m_vLiteralValue = [ 0.7, 0.7, 0.7 ]
+			}
+		},
+		{
+			_class = "C_INIT_InitialVelocityNoise"
+			m_vecOutputMax = [ 64.0, 64.0, 64.0 ]
+			m_vecOutputMin = [ -64.0, -64.0, -64.0 ]
+			m_flNoiseScaleLoc = 1.0
+		},
+	]
+	m_Operators = 
+	[
+		{
+			_class = "C_OP_BasicMovement"
+			m_fDrag = 0.05
+		},
+		{
+			_class = "C_OP_Decay"
+		},
+		{
+			_class = "C_OP_LockToBone"
+		},
+		{
+			_class = "C_OP_FadeInSimple"
+			m_flFadeInTime = 0.65
+		},
+		{
+			_class = "C_OP_InterpolateRadius"
+			m_flEndScale = 0.0
+			m_flBias = 0.96
+			m_flStartTime = 0.4
+			m_flStartScale = 1.5
+		},
+		{
+			_class = "C_OP_InterpolateRadius"
+			m_flBias = 0.45
+			m_flEndScale = 1.5
+			m_flEndTime = 0.3
+		},
+		{
+			_class = "C_OP_OscillateVector"
+			m_flStartTime_max = 0.3
+			m_flStartTime_min = 0.3
+			m_FrequencyMax = [ 8.0, 8.0, 8.0 ]
+			m_RateMax = [ 32.0, 32.0, 32.0 ]
+			m_RateMin = [ -32.0, -32.0, -32.0 ]
+			m_bDisableOperator = true
+		},
+	]
+	m_Renderers = 
+	[
+		{
+			_class = "C_OP_RenderSprites"
+			m_bDisableZBuffering = true
+			m_flOverbrightFactor = 15.0
+			m_flAnimationRate = 0.5
+			m_vecTexturesInput = 
+			[
+				{
+					m_hTexture = resource:"materials/particle/particle_glow_05.vtex"
+				},
+			]
+			m_nOutputBlendMode = "PARTICLE_OUTPUT_BLEND_MODE_ADD"
+			m_OutlineColor = [ 255, 255, 255 ]
+		},
+	]
+}

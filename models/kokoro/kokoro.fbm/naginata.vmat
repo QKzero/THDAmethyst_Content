@@ -1,0 +1,91 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "spring_meteor.vfx"
+
+	//---- Reflection cube map ----
+	F_REFLECT_CUBE_MAP 1
+
+	//---- Color ----
+	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+	TextureColor "models/kokoro/kokoro.fbm/naginata.tga"
+
+	//---- MeteorFX ----
+	g_flCubeMapPowerReflect "0.341"
+	g_flCubeMapScalarReflect "1.000"
+	g_flMeteorBloom "0.500"
+	g_flMeteorBloomSaturation "2.000"
+	g_flMeteorBloomThreshold "0.250"
+	g_flReflectRimPower "37.237"
+	g_flReflectRimStrength "93.093"
+	TextureCubeMapReflect "[0.000000 1.000000 1.000000 1.000000]"
+
+	//---- Self Illum ----
+	TextureSelfIllumMask "materials/default/default_selfillum.tga"
+
+	//---- Specular ----
+	g_flSpecularIntensity "1.000"
+	TextureBloom "materials/default/default_bloom.tga"
+	TextureReflectance "materials/default/default_refl.tga"
+
+	UnusedVariables
+	{
+		"g_flDetailBlendToFull" "0"
+		"g_flDetailBlendFactor" "1"
+		"g_flDetailTexCoordRotation" "0"
+		"g_vDetail1ColorTint" "[1.000000 1.000000 1.000000 0.000000]"
+		"g_vDetailTexCoordOffset" "[0.000 0.000]"
+		"TextureDetail" ""
+		"g_flColorWarpBlendFactor" "0"
+		"TextureColorWarp3D" ""
+		"g_flDiffuseWarpBlendToFull" "0"
+		"g_bDiffuseWarpApplyShadowsAfterWarp" "0"
+		"TextureDiffuseWarp" ""
+		"g_bDiffuseWarpMaskSelectsWarpTopOrBottom" "1"
+		"g_vColorTint3" "[1.000000 1.000000 1.000000 0.000000]"
+		"g_vColorTint4" "[1.000000 1.000000 1.000000 0.000000]"
+		"TextureTintMask2" ""
+		"TextureDetailMask" ""
+		"TextureDiffuseWarpMask" ""
+		"TextureMetalnessMask" ""
+		"g_flAlphaTestReference" "0.5"
+		"TextureAlphaTest" ""
+		"TextureTintCycleLookup" "[0.125490 0.698039 0.666667 1.000000]"
+		"g_flSaturation" "1"
+		"g_flTintCycleFresnel" "10"
+		"g_flTintCycleMask" "-2.012"
+		"g_flTintCycleSpeed" "-2.755"
+		"g_flTintCycleWorldScale" "[0.000 0.123 0.083]"
+		"g_flTintMaskContrast" "1"
+		"g_flTintMaskCutOff" "1"
+		"g_vColorTint2" "[1.000000 1.000000 1.000000 0.000000]"
+		"TextureTintMask" ""
+		"g_flBumpStrength" "1"
+		"TextureNormal" "materials/default/default_normal.tga"
+		"g_flCubeMapPowerRefract" "8.607"
+		"g_flCubeMapScalarRefract" "1"
+		"g_flRefractInnerGlow" "1"
+		"g_flRefractionIndex" "1.2"
+		"TextureCubeMapRefract" "[0.000000 0.000000 0.000000 0.000000]"
+	}
+
+
+	VariableState
+	{
+		"Color"
+		{
+		}
+		"MeteorFX"
+		{
+		}
+		"Self Illum"
+		{
+		}
+		"Specular"
+		{
+		}
+	}
+}
