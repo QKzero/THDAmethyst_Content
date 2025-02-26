@@ -1,4 +1,4 @@
-<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc39:version{1ceecb0d-4093-4729-ab18-b76886c64cde} -->
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc32:version{c5dcef98-b629-46ab-88e3-a17c005c935e} -->
 {
 	rootNode = 
 	{
@@ -21,7 +21,7 @@
 								translation_only = false
 								group_id = 0
 								hitbox_mins = [ -7.384172, 0.046139, -6.924703 ]
-								hitbox_maxs = [ 6.67109, 35.7682, 6.9247 ]
+								hitbox_maxs = [ 6.671095, 35.768215, 6.924698 ]
 							},
 							{
 								_class = "Hitbox"
@@ -67,6 +67,5 @@
 		primary_associated_entity = ""
 		anim_graph_name = ""
 		importer_notes = "Imported from VMDL\n==Warnings==\nChanged incompatible hitbox parent bone name '0.joint_Master' to '0_joint_Master'\nChanged incompatible hitbox parent bone name '1.joint_Head' to '1_joint_Head'\nChanged incompatible hitbox parent bone name '0.joint_Master' to '0_joint_Master'\n"
-		document_sub_type = "ModelDocSubType_None"
 	}
 }
