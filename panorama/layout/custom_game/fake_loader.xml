@@ -90,7 +90,7 @@
 				<Image src="file://{images}/heroes/thd2_npc_dota_hero_queenofpain.png"/>
 				<Image src="file://{images}/heroes/thd2_npc_dota_hero_ember_spirit.png"/>
 				<Image src="file://{images}/heroes/thd2_npc_dota_hero_tusk.png"/>
-				<Image src="file://{images}/heroes/thd2_npc_dota_hero_nevermore.png"/>
+				<Image src="file://{images}/heroes/thd2_npc_dota_hero_lone_druid.png"/>
 				<Image src="file://{images}/heroes/thd2_npc_dota_hero_oracle.png"/>
 				<Image src="file://{images}/heroes/thd2_npc_dota_hero_bloodseeker.png"/>
 				<Image src="file://{images}/heroes/thd2_npc_dota_hero_alchemist.png"/>
@@ -185,7 +185,7 @@
 				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_queenofpain.png"/>
 				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_ember_spirit.png"/>
 				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_tusk.png"/>
-				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_nevermore.png"/>
+				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_lone_druid.png"/>
 				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_oracle.png"/>
 				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_bloodseeker.png"/>
 				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_alchemist.png"/>
@@ -274,7 +274,7 @@
 				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_queenofpain.png"/>
 				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_ember_spirit.png"/>
 				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_tusk.png"/>
-				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_nevermore.png"/>
+				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_lone_druid.png"/>
 				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_oracle.png"/>
 				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_bloodseeker.png"/>
 				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_alchemist.png"/>
@@ -371,7 +371,7 @@
 				<Image src="file://{images}/heroes/npc_dota_hero_queenofpain.png"/>
 				<Image src="file://{images}/heroes/npc_dota_hero_ember_spirit.png"/>
 				<Image src="file://{images}/heroes/npc_dota_hero_tusk.png"/>
-				<Image src="file://{images}/heroes/npc_dota_hero_nevermore.png"/>
+				<Image src="file://{images}/heroes/npc_dota_hero_lone_druid.png"/>
 				<Image src="file://{images}/heroes/npc_dota_hero_oracle.png"/>
 				<Image src="file://{images}/heroes/npc_dota_hero_bloodseeker.png"/>
 				<Image src="file://{images}/heroes/npc_dota_hero_alchemist.png"/>
@@ -465,7 +465,7 @@
 				<Image src="file://{images}/heroes/icons/npc_dota_hero_queenofpain.png"/>
 				<Image src="file://{images}/heroes/icons/npc_dota_hero_ember_spirit.png"/>
 				<Image src="file://{images}/heroes/icons/npc_dota_hero_tusk.png"/>
-				<Image src="file://{images}/heroes/icons/npc_dota_hero_nevermore.png"/>
+				<Image src="file://{images}/heroes/icons/npc_dota_hero_lone_druid.png"/>
 				<Image src="file://{images}/heroes/icons/npc_dota_hero_oracle.png"/>
 				<Image src="file://{images}/heroes/icons/npc_dota_hero_bloodseeker.png"/>
 				<Image src="file://{images}/heroes/icons/npc_dota_hero_alchemist.png"/>
@@ -555,7 +555,7 @@
 				<Image src="file://{images}/heroes/selection/npc_dota_hero_queenofpain.png"/>
 				<Image src="file://{images}/heroes/selection/npc_dota_hero_ember_spirit.png"/>
 				<Image src="file://{images}/heroes/selection/npc_dota_hero_tusk.png"/>
-				<Image src="file://{images}/heroes/selection/npc_dota_hero_nevermore.png"/>
+				<Image src="file://{images}/heroes/selection/npc_dota_hero_lone_druid.png"/>
 				<Image src="file://{images}/heroes/selection/npc_dota_hero_oracle.png"/>
 				<Image src="file://{images}/heroes/selection/npc_dota_hero_bloodseeker.png"/>
 				<Image src="file://{images}/heroes/selection/npc_dota_hero_alchemist.png"/>
