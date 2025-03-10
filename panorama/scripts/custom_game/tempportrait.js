@@ -88,7 +88,6 @@ var imagefile = {
 	'npc_dota_hero_queenofpain': 'panorama/images/heroes/thd2_npc_dota_hero_queenofpain.png',
 	'npc_dota_hero_ember_spirit': 'panorama/images/heroes/thd2_npc_dota_hero_ember_spirit.png',
 	'npc_dota_hero_tusk': 'panorama/images/heroes/thd2_npc_dota_hero_tusk.png',
-	'npc_dota_hero_nevermore': 'panorama/images/heroes/thd2_npc_dota_hero_nevermore.png',
 	'npc_dota_hero_oracle': 'panorama/images/heroes/thd2_npc_dota_hero_oracle.png',
 	'npc_dota_hero_bloodseeker': 'panorama/images/heroes/thd2_npc_dota_hero_bloodseeker.png',
 	'npc_dota_hero_alchemist': 'panorama/images/heroes/thd2_npc_dota_hero_alchemist.png',
