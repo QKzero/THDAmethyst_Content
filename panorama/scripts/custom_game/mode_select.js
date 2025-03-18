@@ -35,7 +35,7 @@ function ModeSelect(data) {
     pause_label.AddClass("Mod_Label")
     pause_label.text = "暂停"
     pause_label.style.color = "#FFFFFF"
-    if (data.is_paused) {
+    if (data && data[1] && data[1].is_paused) {
         pause_label.text = pause_label.text + "√"
         pause_label.style.color = "#FF0000"
     }
@@ -63,7 +63,7 @@ function ModeSelect(data) {
     dota_label.AddClass("Mod_Label")
     dota_label.text = "Dota乱入"
     dota_label.style.color = "#FFFFFF"
-    if (data.dota_inter) {
+    if (data && data[1] && data[1].dota_inter) {
         dota_label.text = dota_label.text + "√"
         dota_label.style.color = "#FF0000"
     }
@@ -83,18 +83,31 @@ function ModeSelect(data) {
         }
     })
 
-    // 关闭按钮
-    let _close_button = $.CreatePanel("Button", _Mod_Panel, "Close_Button")
-    _close_button.AddClass("Select_box")
-    _close_button.style.margin= "10px"
-    let _close_label = $.CreatePanel("Label", _close_button, "Mod_Label")
-    _close_label.AddClass("Mod_Label")
-    _close_label.text = "关闭"
-    _close_label.style.color = "#FFFFFF"
-    _close_button.SetPanelEvent("onactivate", function() {
-        $.Msg("close_button")
+    // 启用人机
+    let bot_button = $.CreatePanel("Panel", _Mod_Panel, "OMG_Easy")
+    bot_button.AddClass("Select_box")
+    bot_button.style.marginTop= "10px"
+    let bot_label = $.CreatePanel("Label", bot_button, "Mod_Label")
+    bot_label.AddClass("Mod_Label")
+    bot_label.text = "启用人机"
+    bot_label.style.color = "#FFFFFF"
+    if (data && data[1] && data[1].is_bot_enabled) {
+        bot_label.text = bot_label.text + "√"
+        bot_label.style.color = "#FF0000"
+    }
+
+    bot_label.SetPanelEvent("onactivate", function() {
+        $.Msg("is_bot_enabled")
         if (Game.GetLocalPlayerID() == 0) {
-            CloseGameMod()
+            let new_state = bot_label.text.indexOf("√") == -1
+            bot_label.text = "启用人机"
+            bot_label.style.color = "#FFFFFF"
+            if (new_state) {
+                bot_label.text = bot_label.text + "√"
+                bot_label.style.color = "#FF0000"
+            }
+            $.Msg(new_state)
+            GameEvents.SendCustomGameEventToServer("ChangeGameBotMode", {is_bot_enabled: new_state});
         }
     })
 }

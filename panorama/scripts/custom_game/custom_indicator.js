@@ -10,7 +10,7 @@ function FireBehaviorEvent( event, state ) {
 	const mousePos = GameUI.GetScreenWorldPosition( GameUI.GetCursorPosition() );
 	const entities = GameUI.FindScreenEntities( GameUI.GetCursorPosition() );
 	const entity = entities[0]?.entityIndex ?? undefined;
-    $.Msg(mousePos, entities, entity)
+    // $.Msg(mousePos, entities, entity)
 	GameEvents.SendEventClientSide( "custom_indicator", {
 		"ability": state.ability,
 		"behavior": state.behavior,
