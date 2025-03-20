@@ -88,11 +88,9 @@
 				<Image src="file://{images}/heroes/thd2_npc_dota_hero_marci.png"/>
 				<Image src="file://{images}/heroes/thd2_npc_dota_hero_death_prophet.png"/>
 				<Image src="file://{images}/heroes/thd2_npc_dota_hero_queenofpain.png"/>
-				<Image src="file://{images}/heroes/thd2_npc_dota_hero_ember_spirit.png"/>
 				<Image src="file://{images}/heroes/thd2_npc_dota_hero_tusk.png"/>
 				<Image src="file://{images}/heroes/thd2_npc_dota_hero_lone_druid.png"/>
 				<Image src="file://{images}/heroes/thd2_npc_dota_hero_oracle.png"/>
-				<Image src="file://{images}/heroes/thd2_npc_dota_hero_bloodseeker.png"/>
 				<Image src="file://{images}/heroes/thd2_npc_dota_hero_alchemist.png"/>
 				
 				
@@ -183,11 +181,9 @@
 				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_marci.png"/>
 				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_death_prophet.png"/>
 				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_queenofpain.png"/>
-				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_ember_spirit.png"/>
 				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_tusk.png"/>
 				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_lone_druid.png"/>
 				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_oracle.png"/>
-				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_bloodseeker.png"/>
 				<Image src="file://{images}/heroes/icons/thd2_npc_dota_hero_alchemist.png"/>
 				
 				<!--选择页-->
@@ -272,11 +268,9 @@
 				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_dawnbreaker.png"/>
 				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_death_prophet.png"/>
 				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_queenofpain.png"/>
-				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_ember_spirit.png"/>
 				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_tusk.png"/>
 				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_lone_druid.png"/>
 				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_oracle.png"/>
-				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_bloodseeker.png"/>
 				<Image src="file://{images}/heroes/selection/thd2_npc_dota_hero_alchemist.png"/>
 				
 				<!-- 以上的用于手动重载,*必须*使用不同于dota2的文件名,否则无效 -->
@@ -369,11 +363,9 @@
 				<Image src="file://{images}/heroes/npc_dota_hero_marci.png"/>
 				<Image src="file://{images}/heroes/npc_dota_hero_death_prophet.png"/>
 				<Image src="file://{images}/heroes/npc_dota_hero_queenofpain.png"/>
-				<Image src="file://{images}/heroes/npc_dota_hero_ember_spirit.png"/>
 				<Image src="file://{images}/heroes/npc_dota_hero_tusk.png"/>
 				<Image src="file://{images}/heroes/npc_dota_hero_lone_druid.png"/>
 				<Image src="file://{images}/heroes/npc_dota_hero_oracle.png"/>
-				<Image src="file://{images}/heroes/npc_dota_hero_bloodseeker.png"/>
 				<Image src="file://{images}/heroes/npc_dota_hero_alchemist.png"/>
 				
 				
@@ -463,11 +455,9 @@
 				<Image src="file://{images}/heroes/icons/npc_dota_hero_marci.png"/>
 				<Image src="file://{images}/heroes/icons/npc_dota_hero_death_prophet.png"/>
 				<Image src="file://{images}/heroes/icons/npc_dota_hero_queenofpain.png"/>
-				<Image src="file://{images}/heroes/icons/npc_dota_hero_ember_spirit.png"/>
 				<Image src="file://{images}/heroes/icons/npc_dota_hero_tusk.png"/>
 				<Image src="file://{images}/heroes/icons/npc_dota_hero_lone_druid.png"/>
 				<Image src="file://{images}/heroes/icons/npc_dota_hero_oracle.png"/>
-				<Image src="file://{images}/heroes/icons/npc_dota_hero_bloodseeker.png"/>
 				<Image src="file://{images}/heroes/icons/npc_dota_hero_alchemist.png"/>
 				
 				
@@ -553,11 +543,9 @@
 				<Image src="file://{images}/heroes/selection/npc_dota_hero_dawnbreaker.png"/>
 				<Image src="file://{images}/heroes/selection/npc_dota_hero_death_prophet.png"/>
 				<Image src="file://{images}/heroes/selection/npc_dota_hero_queenofpain.png"/>
-				<Image src="file://{images}/heroes/selection/npc_dota_hero_ember_spirit.png"/>
 				<Image src="file://{images}/heroes/selection/npc_dota_hero_tusk.png"/>
 				<Image src="file://{images}/heroes/selection/npc_dota_hero_lone_druid.png"/>
 				<Image src="file://{images}/heroes/selection/npc_dota_hero_oracle.png"/>
-				<Image src="file://{images}/heroes/selection/npc_dota_hero_bloodseeker.png"/>
 				<Image src="file://{images}/heroes/selection/npc_dota_hero_alchemist.png"/>
         </Panel>
 </root>
